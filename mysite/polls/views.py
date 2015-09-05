@@ -4,7 +4,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.views import generic 
 from django.utils import timezone 
 
-from .models import Question 
+from .models import Question, Choice
 from django.template import RequestContext, loader 	#overkill 
 # from django.http import Http404				#overkill 
 
